@@ -1,0 +1,147 @@
+/* Estilo general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Encabezados */
+h1 {
+    color: #1bcf24; /* Verde llamativo */
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #1bcf24; /* Verde llamativo */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de texto */
+.p-descripcion {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 475px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Sección de descripción */
+.descripcion {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.bloque {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+/* Imágenes */
+.iguana-chica {
+    width: 100%;
+    max-width: 399px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-horizontal {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid #1bcf24; /* Bordes verdes */
+}
+
+.imagenes-3 {
+    display: inline-block;
+    margin: 10px;
+    width: 316px;
+    height: auto;
+    border: 2px solid #1bcf24; /* Bordes verdes */
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    color: #ffffff;
+    background-color: #1E1A13; /* Negro más tenue */
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+/* Iconos */
+.iconos-b,
+.icons-section {
+    background-color: #000000; /* Fondo negro */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.icons {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.icons i {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #1bcf24; /* Iconos verdes */
+}
+
+/* Centrado */
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Botones y enlaces */
+a {
+    color: #1bcf24; /* Verde llamativo */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff; /* Blanco al pasar el cursor */
+    text-decoration: underline;
+}
+
+i {
+    color: #000000; /* Aplica negro a todos los iconos */
+}
+/* Estilo para los iconos de la sección de características */
+.bg-light .fa-eye,
+.bg-light .fa-hand-peace,
+.bg-light .fa-paint-brush {
+    color: #000000; /* Negro */
+}
+/* Personalización de la sección de características */
+.bg-dark {
+    background-color: #000000 !important; /* Fondo completamente negro */
+    color: #ffffff; /* Texto blanco */
+}
+
+.bg-dark i {
+    color: #ffffff; /* Iconos blancos */
+}
+
+.bg-dark p {
+    color: #ffffff; /* Texto blanco */
+}
+
+.bg-dark h2 {
+    color: #1bcf24; /* Verde para el título */
+}
